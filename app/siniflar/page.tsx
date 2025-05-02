@@ -39,7 +39,7 @@ const Siniflar = () => {
       kapasite: 20,
       açıklama: "İlkokula hazırlık odaklı, yaratıcı düşünmeyi ve öğrenme becerilerini geliştiren etkinliklerle dolu sınıfımız.",
       özellikleri: ["Okuma hazırlık köşesi", "Proje çalışma alanı", "Teknoloji köşesi", "Grup tartışma alanı"],
-      fotoğraflar: ["/cocuklar3.png", "/cocuklar3.png", "cocuklar3.png"]
+      fotoğraflar: ["/cocuklar3.png", "/cocuklar3.png", "/cocuklar3.png"]
     }
   ];
 
@@ -119,6 +119,8 @@ const Siniflar = () => {
                   src={seçiliSınıf.fotoğraflar[aktifFotoIndeksi] || "/placeholder.jpg"} 
                   alt={`${seçiliSınıf.isim} sınıfı`}
                   className="absolute inset-0 w-full h-full object-cover"
+                  width={400}
+                  height={400}
                 />
                 
                 {/* Ok Butonları */}
@@ -216,6 +218,8 @@ const Siniflar = () => {
                   src={foto} 
                   alt={`${seçiliSınıf.isim} - ${index + 1}`}
                   className="w-full h-full object-cover"
+                  width={400}
+                  height={400}
                 />
               </div>
             ))}

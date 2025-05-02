@@ -116,6 +116,8 @@ const Anasayfa = () => {
                 src="/asyalicocuk.png" 
                 alt="Eğitici oyuncaklarla gülümseyen çocuk" 
                 className="relative z-0 w-full max-w-md h-auto rounded-lg object-cover"
+                width={400}
+                height={400}
               />
             </div>
           </div>
@@ -130,6 +132,8 @@ const Anasayfa = () => {
                 src="/asyalicocuk.png" 
                 alt="Eğitici oyuncaklarla gülümseyen çocuk" 
                 className="relative z-0 w-full max-w-md h-auto rounded-lg object-cover"
+                width={400}
+                height={400}
               />
             </div>
             

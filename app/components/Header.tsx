@@ -15,7 +15,8 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center font-bold text-lg md:text-xl text-indigo-900">
             <div className="w-18 h-18">
-            <Image src="logo.png" alt="" /></div>
+            <Image src="/logo.png" alt=""                 width={400}
+                height={400}/></div>
         </div>
 
         {/* Desktop Navigation */}

@@ -1,6 +1,6 @@
 "use client"
 import React, { useState } from 'react'
-
+import Link from 'next/link';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -19,11 +19,11 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6 lg:space-x-8 text-sm lg:text-base text-indigo-800 font-medium">
-          <a href="/" className="hover:text-indigo-700 transition-colors duration-200">Hakkımızda</a>
-          <a href="/siniflar" className="hover:text-indigo-700 transition-colors duration-200">Sınıflar</a>
-          <a href="#" className="hover:text-indigo-700 transition-colors duration-200">Öğretmenler</a>
-          <a href="#" className="hover:text-indigo-700 transition-colors duration-200">Etkinlikler</a>
-          <a href="#" className="hover:text-indigo-700 transition-colors duration-200">Blog</a>
+          <Link href="/" className="hover:text-indigo-700 transition-colors duration-200">Hakkımızda</Link>
+          <Link href="/siniflar" className="hover:text-indigo-700 transition-colors duration-200">Sınıflar</Link>
+          <Link href="#" className="hover:text-indigo-700 transition-colors duration-200">Öğretmenler</Link>
+          <Link href="#" className="hover:text-indigo-700 transition-colors duration-200">Etkinlikler</Link>
+          <Link href="#" className="hover:text-indigo-700 transition-colors duration-200">Blog</Link>
         </nav>
 
         {/* Contact Button - Desktop */}

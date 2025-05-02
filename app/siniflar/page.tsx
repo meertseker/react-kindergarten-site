@@ -1,7 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import Header from '../components/Header'
-
+import Image from 'next/image';
 const Siniflar = () => {
   // Sınıfların verileri (gerçek verileri burada tanımlayın)
   const siniflar = [
@@ -115,7 +115,7 @@ const Siniflar = () => {
               {/* Fotoğraf Slider */}
               <div className="relative h-80 md:h-auto bg-gray-200">
                 {/* Aktif Fotoğraf */}
-                <img 
+                <Image 
                   src={seçiliSınıf.fotoğraflar[aktifFotoIndeksi] || "/placeholder.jpg"} 
                   alt={`${seçiliSınıf.isim} sınıfı`}
                   className="absolute inset-0 w-full h-full object-cover"
@@ -212,7 +212,7 @@ const Siniflar = () => {
                   aktifFotoIndeksi === index ? "border-purple-600 ring-2 ring-purple-300" : "border-transparent"
                 }`}
               >
-                <img 
+                <Image 
                   src={foto} 
                   alt={`${seçiliSınıf.isim} - ${index + 1}`}
                   className="w-full h-full object-cover"

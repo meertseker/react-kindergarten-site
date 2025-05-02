@@ -1,7 +1,7 @@
 "use client"
 import React from 'react'
 import Header from './components/Header'
-
+import Image from 'next/image';
 
 const Anasayfa = () => {
   return (
@@ -110,9 +110,9 @@ const Anasayfa = () => {
                   <div className="w-10 h-10 bg-green-500 rounded-md rotate-45"></div>
                 </div>
               </div>
-              
+
               {/* Child image */}
-              <img 
+              <Image
                 src="/asyalicocuk.png" 
                 alt="Eğitici oyuncaklarla gülümseyen çocuk" 
                 className="relative z-0 w-full max-w-md h-auto rounded-lg object-cover"
@@ -126,7 +126,7 @@ const Anasayfa = () => {
               <div className="absolute -z-10 left-0 bottom-0 w-3/4 h-3/4 bg-purple-400 rounded-full opacity-70"></div>
               
               {/* Child image */}
-              <img 
+              <Image 
                 src="/asyalicocuk.png" 
                 alt="Eğitici oyuncaklarla gülümseyen çocuk" 
                 className="relative z-0 w-full max-w-md h-auto rounded-lg object-cover"

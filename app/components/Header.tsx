@@ -1,6 +1,7 @@
 "use client"
 import React, { useState } from 'react'
 import Link from 'next/link';
+import Image from 'next/image';
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false)
 
@@ -14,7 +15,7 @@ const Header = () => {
         {/* Logo */}
         <div className="flex items-center font-bold text-lg md:text-xl text-indigo-900">
             <div className="w-18 h-18">
-            <img src="logo.png" alt="" /></div>
+            <Image src="logo.png" alt="" /></div>
         </div>
 
         {/* Desktop Navigation */}

@@ -10,8 +10,8 @@ const Header = () => {
   }
 
   return (
-    <div className="relative">
-      <header className="bg-white-200 px-4 md:px-8 py-4 flex items-center justify-between">
+    <div className="relative z-9999">
+      <header className="bg-white px-4 md:px-8 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center font-bold text-lg md:text-xl text-indigo-900">
             <div className="w-18 h-18">
@@ -21,11 +21,11 @@ const Header = () => {
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex items-center space-x-6 lg:space-x-8 text-sm lg:text-base text-indigo-800 font-medium">
-          <Link href="/" className="hover:text-indigo-700 transition-colors duration-200">Hakkımızda</Link>
-          <Link href="/siniflar" className="hover:text-indigo-700 transition-colors duration-200">Sınıflar</Link>
-          <Link href="#" className="hover:text-indigo-700 transition-colors duration-200">Öğretmenler</Link>
-          <Link href="#" className="hover:text-indigo-700 transition-colors duration-200">Etkinlikler</Link>
-          <Link href="#" className="hover:text-indigo-700 transition-colors duration-200">Blog</Link>
+
+          <Link href="/" className="hover:text-indigo-700 transition-colors duration-200">Anasayfa</Link>
+          <Link href="/bultenler" className="hover:text-indigo-700 transition-colors duration-200">Bultenler</Link>
+          <Link href="/aktiviteler" className="hover:text-indigo-700 transition-colors duration-200">Aktiviteler</Link>
+          <Link href="/sss" className="hover:text-indigo-700 transition-colors duration-200">Sikca Sorulan Sorular</Link>
         </nav>
 
         {/* Contact Button - Desktop */}
@@ -56,18 +56,17 @@ const Header = () => {
 
       {/* Mobile Menu */}
       {isMenuOpen && (
-        <div className="md:hidden absolute top-full left-0 right-0 bg-orange-50 shadow-md z-10 py-4 px-6 flex flex-col space-y-4 text-slate-800 font-medium">
-          <a href="#" className="hover:text-indigo-700 transition-colors duration-200">Hakkımızda</a>
-          <a href="#" className="hover:text-indigo-700 transition-colors duration-200">Sınıflar</a>
-          <a href="#" className="hover:text-indigo-700 transition-colors duration-200">Öğretmenler</a>
-          <a href="#" className="hover:text-indigo-700 transition-colors duration-200">Etkinlikler</a>
-          <a href="#" className="hover:text-indigo-700 transition-colors duration-200">Blog</a>
-          <a
+        <div className="md:hidden absolute top-full left-0 right-0 bg-white shadow-md z-10 py-4 px-6 flex flex-col space-y-4 text-slate-800 font-medium">
+          <Link href="/" className="hover:text-indigo-700 transition-colors duration-200">Anasayfa</Link>
+          <Link href="/bultenler" className="hover:text-indigo-700 transition-colors duration-200">Bultenler</Link>
+          <Link href="/aktiviteler" className="hover:text-indigo-700 transition-colors duration-200">Aktiviteler</Link>
+          <Link href="/sss" className="hover:text-indigo-700 transition-colors duration-200">Sikca Sorulan Sorular</Link>
+          <Link
             href="#"
             className="bg-indigo-700 text-white text-center py-2 rounded-full hover:bg-indigo-800 transition-colors duration-200 mt-2 shadow-sm"
           >
             İletişim
-          </a>
+          </Link>
         </div>
       )}
     </div>

@@ -6,6 +6,7 @@ import Image from 'next/image';
 const Anasayfa = () => {
   return (
     <div className="min-h-screen bg-white">
+
       <Header />
       
       {/* Hero Section with Background Image */}

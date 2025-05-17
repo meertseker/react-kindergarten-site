@@ -3,7 +3,7 @@ import React, { useState } from 'react'
 const Duyuru = () => {
       const [duyuruMetni, setDuyuruMetni] = useState("");
 
-      const [aktiviteFotograflari, setAktiviteFotograflari] = useState([]);
+
   return (
     <div>
             <div className="py-12 bg-white">

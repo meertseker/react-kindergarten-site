@@ -2,7 +2,6 @@ import Image from 'next/image'
 import React, { useState } from 'react'
 
 const Gezi = () => {
-    const [geziFotograflari, setGeziFotograflari] = useState([]);
   return (
     <div>
                 <div className="bg-white rounded-2xl shadow-lg p-6 md:p-8">
@@ -10,7 +9,7 @@ const Gezi = () => {
                   <input 
                     type="file" 
                     multiple 
-                    onChange={(e) => setGeziFotograflari([...e.target.files])}
+                    onChange={(e) => {}}
                     className="mb-4"
                   />
                   <textarea

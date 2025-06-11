@@ -121,7 +121,7 @@ const Aktiviteler = () => {
         id: 12,
         başlık: "Yaz Okulu Aktiviteleri",
         açıklama: "Yaz boyunca çocukların eğlenerek öğrenmeye devam etmelerini sağlayan, zengin içerikli yaz okulu programı.",
-        resim: "/yazokulu.png",
+        resim: "/yazaktiviteleri.jpg",
         özellikler: ["Eğlenceli öğrenme", "Sosyal etkileşim", "Yaratıcı etkinlikler", "Açık hava aktiviteleri"],
         yaşGrubu: "3-6 yaş"
       },
@@ -129,7 +129,7 @@ const Aktiviteler = () => {
         id: 13,
         başlık: "Binicilik",
         açıklama: "Çocukların atlarla bağ kurarak sorumluluk, güven ve denge becerilerini geliştirdiği binicilik dersleri.",
-        resim: "/binicilik.png",
+        resim: "/binincilik.jpg",
         özellikler: ["Denge ve duruş", "Hayvan sevgisi", "Sorumluluk bilinci", "Özgüven"],
         yaşGrubu: "4-6 yaş"
       },
@@ -137,7 +137,7 @@ const Aktiviteler = () => {
         id: 14,
         başlık: "Yüzme",
         açıklama: "Profesyonel eğitmenler eşliğinde, su korkusunu yenme ve temel yüzme becerilerini kazandıran yüzme dersleri.",
-        resim: "/yuzme.png",
+        resim: "/yuzme.jpg",
         özellikler: ["Su güvenliği", "Temel yüzme teknikleri", "Nefes kontrolü", "Fiziksel dayanıklılık"],
         yaşGrubu: "3-6 yaş"
       },
@@ -145,7 +145,7 @@ const Aktiviteler = () => {
         id: 15,
         başlık: "Sportif Faaliyetler",
         açıklama: "Açık havada gerçekleştirilen, çocukların enerjilerini pozitif bir şekilde harcamalarını sağlayan çeşitli spor aktiviteleri.",
-        resim: "/spor.png",
+        resim: "/sportiffaaliyetler.jpg",
         özellikler: ["Takım çalışması", "Koordinasyon", "Motor beceriler", "Sosyal etkileşim"],
         yaşGrubu: "3-6 yaş"
       }
@@ -461,7 +461,7 @@ const Aktiviteler = () => {
           </div>
         </div>
       </div>
-    );</div>
+    </div>
   )}
 
   export default Aktiviteler

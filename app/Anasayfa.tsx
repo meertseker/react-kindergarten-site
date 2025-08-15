@@ -4,6 +4,8 @@ import Header from './components/Header'
 import HeroSection from './components/HeroSection'
 import AboutSection from './components/AboutSection'
 import FeaturesSection from './components/FeaturesSection'
+import ActivitiesSection from './components/ActivitiesSection'
+import FAQSection from './components/FAQSection'
 import ContactSection from './components/ContactSection'
 
 const Anasayfa = () => {
@@ -12,7 +14,7 @@ const Anasayfa = () => {
       <Header />
       
       <HeroSection />
-
+      <ActivitiesSection /> 
       {/* About Section */}
       <div className="py-16 bg-white">
         <div className="container mx-auto px-4 md:px-6">
@@ -35,14 +37,18 @@ const Anasayfa = () => {
               buttonLink="/aktiviteler"
               imageSrc="/asyalicocuk.png"
               imageAlt="Güvenli oyun alanında mutlu çocuklar"
-              imagePosition="right"
+              imagePosition="left"
               backgroundColor="#e657a2"
             />
           </div>
         </div>
       </div>
       
+     
+      
       <FeaturesSection />
+      
+      <FAQSection />
       
       <ContactSection />
     </div>

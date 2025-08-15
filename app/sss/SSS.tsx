@@ -82,17 +82,21 @@ const SSS = () => {
       <Header />
       
       {/* Hero Section */}
-      <div className="py-16" style={{ backgroundColor: 'rgba(245, 218, 40, 0.1)' }}>
-        <div className="container mx-auto px-4 md:px-6">
-          <div className="text-center max-w-3xl mx-auto">
-            <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6" style={{ color: '#071997' }}>
-              Sık Sorulan Sorular
-            </h1>
-            <p className="text-lg text-gray-700 mb-8">
-              Anaokulumuza dair merak ettiğiniz soruların cevaplarını burada bulabilirsiniz. 
-              Başka sorularınız için bizimle iletişime geçmekten çekinmeyin.
-            </p>
-          </div>
+      <div className="relative py-16 bg-indigo-900">
+        <div className="absolute inset-0 bg-gradient-to-b from-indigo-900/90 to-purple-700/80"></div>
+        
+        {/* Dekoratif Şekiller */}
+        <div className="absolute top-6 right-8 w-16 h-16 bg-yellow-400 rounded-full opacity-20"></div>
+        <div className="absolute bottom-6 left-12 w-20 h-20 bg-red-500 rounded-full opacity-20"></div>
+        
+        <div className="container mx-auto px-4 md:px-6 relative z-10 text-center">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl font-bold mb-6 text-white">
+            Sık Sorulan Sorular
+          </h1>
+          <p className="text-white text-lg opacity-90 max-w-3xl mx-auto">
+            Anaokulumuza dair merak ettiğiniz soruların cevaplarını burada bulabilirsiniz. 
+            Başka sorularınız için bizimle iletişime geçmekten çekinmeyin.
+          </p>
         </div>
       </div>
 

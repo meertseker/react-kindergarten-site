@@ -28,7 +28,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({
   return (
     <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16">
       {/* Image Area */}
-      <div className={`md:w-1/2 relative ${isImageLeft ? 'order-1 md:order-1' : 'order-2 md:order-1'}`}>
+      <div className={`md:w-1/2 relative order-2 md:${isImageLeft ? 'order-1' : 'order-2'}`}>
         {/* Decorative Background */}
         <div className={`absolute -z-10 ${isImageLeft ? 'left-0' : 'right-0'} bottom-0 w-3/4 h-3/4 rounded-full opacity-70`} style={{ backgroundColor }}></div>
         
@@ -62,7 +62,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({
       </div>
       
       {/* Text Content */}
-      <div className={`md:w-1/2 ${isImageLeft ? 'order-2 md:order-2' : 'order-1 md:order-2'}`}>
+      <div className={`md:w-1/2 order-1 md:${isImageLeft ? 'order-2' : 'order-1'}`}>
         <h2 className="text-2xl md:text-3xl font-bold mb-4" style={{ color: '#071997' }}>
           {title}
         </h2>

@@ -24,7 +24,7 @@ const FAQSection = () => {
     {
       id: 1,
       question: "Anaokulumuza kaç yaş arası çocuklar kabul edilir?",
-      answer: "Şeker Anaokulu'nda 2-6 yaş arası çocukları kabul etmekteyiz. Yaş gruplarına göre sınıflarımız düzenlenmiştir ve her yaş grubuna uygun eğitim programları sunmaktayız."
+      answer: "Şeker Anaokulu'nda 3-6 yaş arası çocukları kabul etmekteyiz. Yaş gruplarına göre sınıflarımız düzenlenmiştir ve her yaş grubuna uygun eğitim programları sunmaktayız."
     },
     {
       id: 2,

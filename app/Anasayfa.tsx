@@ -7,6 +7,7 @@ import FeaturesSection from './components/FeaturesSection'
 import ActivitiesSection from './components/ActivitiesSection'
 import FAQSection from './components/FAQSection'
 import ContactSection from './components/ContactSection'
+import Image from 'next/image'
 
 const Anasayfa = () => {
   return (
@@ -28,6 +29,17 @@ const Anasayfa = () => {
             imagePosition="right"
             backgroundColor="#3ba4cc"
           />
+          
+          {/* Center Image */}
+          <div className="my-16 text-center md:hidden">
+            <Image 
+              src="/asyalicocuk.png" 
+              alt="Çocuklar mutlu bir şekilde öğreniyor"
+              className="rounded-lg shadow-lg mx-auto"
+              width={300}
+              height={200}
+            />
+          </div>
           
           <div className="mt-16">
             <AboutSection

@@ -28,7 +28,7 @@ const AboutSection: React.FC<AboutSectionProps> = ({
   return (
     <div className="flex flex-col md:flex-row items-center gap-8 md:gap-16">
       {/* Image Area */}
-      <div className={`md:w-1/2 relative order-2 md:${isImageLeft ? 'order-1' : 'order-2'}`}>
+      <div className={`md:w-1/2 relative order-2 md:${isImageLeft ? 'order-1' : 'order-2'} hidden md:block`}>
         {/* Decorative Background */}
         <div className={`absolute -z-10 ${isImageLeft ? 'left-0' : 'right-0'} bottom-0 w-3/4 h-3/4 rounded-full opacity-70`} style={{ backgroundColor }}></div>
         

@@ -404,11 +404,11 @@ const Aktiviteler = () => {
               {[
                 {
                   soru: "Aktivitelere hangi yaş grubu çocuklar katılabilir?",
-                  cevap: "Aktivitelere genellikle 2-6 yaş arası çocuklar katılabilmektedir. Her aktivitenin kendine özel yaş aralığı bulunmaktadır ve detaylarını ilgili aktivite sayfasında görebilirsiniz."
+                  cevap: "Aktivitelere genellikle 3-6 yaş arası çocuklar katılabilmektedir. Her aktivitenin kendine özel yaş aralığı bulunmaktadır ve detaylarını ilgili aktivite sayfasında görebilirsiniz."
                 },
                 {
                   soru: "Aktiviteler ne kadar sürüyor?",
-                  cevap: "Aktivitelerimiz genellikle 45-60 dakika arasında sürmektedir. Çocukların dikkat süreleri ve aktivitenin içeriğine göre bu süre değişebilmektedir."
+                  cevap: "Aktivitelerimiz genellikle 30 dakika arasında sürmektedir. Çocukların dikkat süreleri ve aktivitenin içeriğine göre bu süre değişebilmektedir."
                 },
                 {
                   soru: "Aktiviteye katılmak için ön kayıt gerekli mi?",

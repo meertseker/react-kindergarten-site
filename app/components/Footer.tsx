@@ -6,18 +6,20 @@ import SocialMediaLinks from './SocialMediaLinks'
 
 const Footer = () => {
   return (
-    <footer className="relative text-white overflow-hidden" style={{ background: `linear-gradient(to bottom right, #071997, #071997, #071997)` }}>
+    <footer className="relative text-white overflow-hidden bg-indigo-900">
       {/* Decorative Background Elements */}
       <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute inset-0 bg-gradient-to-b from-indigo-900/90 to-purple-700/80"></div>
+        
         {/* Floating decorative shapes */}
-        <div className="absolute top-10 left-10 w-20 h-20 rounded-full opacity-20 animate-pulse" style={{ backgroundColor: '#ef6700' }}></div>
+        <div className="absolute top-10 left-10 w-20 h-20 rounded-full opacity-20 animate-pulse bg-yellow-400"></div>
         <div className="absolute top-20 right-20 w-16 h-16 bg-red-500 rounded-full opacity-20 animate-pulse" style={{ animationDelay: '1s' }}></div>
-        <div className="absolute bottom-20 left-1/4 w-12 h-12 rounded-full opacity-20 animate-pulse" style={{ backgroundColor: '#ef6700', animationDelay: '2s' }}></div>
-        <div className="absolute bottom-10 right-1/3 w-14 h-14 rounded-full opacity-20 animate-pulse" style={{ backgroundColor: '#071997', animationDelay: '0.5s' }}></div>
+        <div className="absolute bottom-20 left-1/4 w-12 h-12 rounded-full opacity-20 animate-pulse bg-yellow-400" style={{ animationDelay: '2s' }}></div>
+        <div className="absolute bottom-10 right-1/3 w-14 h-14 rounded-full opacity-20 animate-pulse bg-purple-400" style={{ animationDelay: '0.5s' }}></div>
         
         {/* Decorative triangles */}
-        <div className="absolute top-1/4 left-1/3 w-0 h-0 border-l-8 border-r-8 border-b-16 border-l-transparent border-r-transparent opacity-30" style={{ borderBottomColor: '#ef6700' }}></div>
-        <div className="absolute bottom-1/3 right-1/4 w-0 h-0 border-l-6 border-r-6 border-b-12 border-l-transparent border-r-transparent opacity-30" style={{ borderBottomColor: '#071997' }}></div>
+        <div className="absolute top-1/4 left-1/3 w-0 h-0 border-l-8 border-r-8 border-b-16 border-l-transparent border-r-transparent opacity-30" style={{ borderBottomColor: '#f5da28' }}></div>
+        <div className="absolute bottom-1/3 right-1/4 w-0 h-0 border-l-6 border-r-6 border-b-12 border-l-transparent border-r-transparent opacity-30" style={{ borderBottomColor: '#a855f7' }}></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -35,7 +37,7 @@ const Footer = () => {
                 />
               </div>
               <h3 className="text-2xl font-bold" style={{ color: '#ef6700' }}>
-                Şeker Akademi
+                Şeker Anaokulu
               </h3>
             </div>
             <p className="text-gray-300 mb-6 leading-relaxed">
@@ -60,17 +62,6 @@ const Footer = () => {
           </div>
 
           {/* Services */}
-          <div>
-            <h4 className="text-lg font-semibold mb-4" style={{ color: '#071997' }}>Hizmetlerimiz</h4>
-            <ul className="space-y-2">
-              <li><span className="text-gray-300">Montessori Eğitimi</span></li>
-              <li><span className="text-gray-300">Yaratıcı Drama</span></li>
-              <li><span className="text-gray-300">Müzik Eğitimi</span></li>
-              <li><span className="text-gray-300">Sanat Atölyesi</span></li>
-              <li><span className="text-gray-300">Yabancı Dil</span></li>
-              <li><span className="text-gray-300">Spor Aktiviteleri</span></li>
-            </ul>
-          </div>
 
           {/* Contact Info */}
           <div>

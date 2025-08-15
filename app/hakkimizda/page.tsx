@@ -2,6 +2,7 @@
 import React from 'react'
 import Header from '../components/Header'
 import AboutSection from '../components/AboutSection'
+import Image from 'next/image'
 
 const HakkimizdaPage = () => {
   return (
@@ -21,7 +22,7 @@ const HakkimizdaPage = () => {
             Hakkımızda
           </h1>
           <p className="text-white text-lg opacity-90 max-w-2xl mx-auto">
-            Şeker Anaokulu olarak çocuklarınızın mutlu, güvenli ve yaratıcı bir ortamda büyümesi için var olan modern eğitim kurumumuz.
+            Şeker Anaokulu olarak çocuklarınızın mutlu, güvenli ve yaratıcı bir ortamda büyümesi için 2011 yılından beri faaliyetlerimiz devam etmektedir.
           </p>
         </div>
       </div>
@@ -40,6 +41,17 @@ const HakkimizdaPage = () => {
             imagePosition="right"
             backgroundColor="#3ba4cc"
           />
+          
+          {/* Center Image */}
+          <div className="my-16 text-center md:hidden">
+            <Image 
+              src="/asyalicocuk.png" 
+              alt="Çocuklar mutlu bir şekilde öğreniyor"
+              className="rounded-lg shadow-lg mx-auto"
+              width={300}
+              height={200}
+            />
+          </div>
           
           <div className="mt-16">
             <AboutSection

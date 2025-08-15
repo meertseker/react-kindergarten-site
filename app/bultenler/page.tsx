@@ -22,20 +22,6 @@ const Bultenler = () => {
       tarih: "15.04.2025",
       icerik: "23 Nisan Ulusal Egemenlik ve Çocuk Bayramı kapsamında okulumuzda düzenlenecek etkinliklere tüm velilerimiz davetlidir.",
       onemli: true
-    },
-    {
-      id: 3,
-      baslik: "Aşı Kampanyası Bilgilendirmesi",
-      tarih: "10.04.2025",
-      icerik: "Sağlık Bakanlığı tarafından düzenlenen aşı kampanyası kapsamında, tüm öğrencilerimizin aşı kartlarını kontrol etmenizi rica ederiz.",
-      onemli: false
-    },
-    {
-      id: 4,
-      baslik: "Veli Toplantısı Ertelendi",
-      tarih: "05.04.2025",
-      icerik: "10 Nisan tarihinde yapılması planlanan veli toplantımız, 17 Nisan tarihine ertelenmiştir.",
-      onemli: false
     }
   ]);
 

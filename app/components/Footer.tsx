@@ -82,8 +82,8 @@ const Footer = () => {
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
                 <span className="text-gray-300 text-sm leading-relaxed">
-                  Cumhuriyet, Uludağ Sk. No:6<br />
-                  34000 Büyükçekmece/İstanbul
+                  Cumhuriyet mah, Uludağ Sk. No:6<br />
+                   Beykent Büyükçekmece/İstanbul
                 </span>
               </div>
               
@@ -108,7 +108,7 @@ const Footer = () => {
         <div className="border-t border-gray-700 py-6">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
-              © 2024 Şeker Akademi. Tüm hakları saklıdır.
+              © 2024 Şeker Anaokulu. Tüm hakları saklıdır.
             </div>
             <div className="flex space-x-6 text-sm">
               <Link href="/gizlilik" className="text-gray-400 hover:text-white transition-colors duration-200">

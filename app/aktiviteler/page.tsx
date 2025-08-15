@@ -33,7 +33,7 @@ const Aktiviteler = () => {
         açıklama: "Çocukların problem çözme ve mantıksal düşünme yeteneklerini geliştiren, eğlenceli robotik kodlama atölyeleri.",
         resim: "/robotic.jpg",
         özellikler: ["Algoritmik düşünme", "Problem çözme becerileri", "Yaratıcı düşünme", "Takım çalışması"],
-        yaşGrubu: "5-6 yaş"
+        yaşGrubu: "3-6 yaş"
       },
       {
         id: 2,
@@ -49,7 +49,7 @@ const Aktiviteler = () => {
         açıklama: "Farklı sanat teknikleri ve malzemeleriyle çocukların kendilerini ifade etmelerini sağlayan görsel sanatlar etkinlikleri.",
         resim: "/art.jpg",
         özellikler: ["Renk algısı", "Kompozisyon", "Sanatsal ifade", "El-göz koordinasyonu"],
-        yaşGrubu: "2-6 yaş"
+        yaşGrubu: "3-6 yaş"
       },
       {
         id: 4,
@@ -65,7 +65,7 @@ const Aktiviteler = () => {
         açıklama: "Çocukların müzikal zekalarını ve ritim duygularını geliştiren, çeşitli enstrümanlarla tanıştıkları müzik dersleri.",
         resim: "/muzik.jpg",
         özellikler: ["Ses algısı", "Ritim yeteneği", "Müzikal ifade", "Dinleme becerisi"],
-        yaşGrubu: "2-6 yaş"
+        yaşGrubu: "3-6 yaş"
       },
       {
         id: 6,
@@ -81,7 +81,7 @@ const Aktiviteler = () => {
         açıklama: "Montessori felsefesine uygun, çocukların bağımsız öğrenmelerini destekleyen, özel tasarlanmış materyallerle aktiviteler.",
         resim: "/montesori.jpg",
         özellikler: ["Bağımsız öğrenme", "Pratik yaşam becerileri", "Düzen ve disiplin", "Odaklanma"],
-        yaşGrubu: "2-6 yaş"
+        yaşGrubu: "3-6 yaş"
       },
       {
         id: 8,
@@ -89,7 +89,7 @@ const Aktiviteler = () => {
         açıklama: "Stratejik düşünme, planlama ve konsantrasyon becerilerini geliştiren, eğlenceli satranç dersleri.",
         resim: "/satranc.jpg",
         özellikler: ["Stratejik düşünme", "Planlama", "Sabır", "Analitik zeka"],
-        yaşGrubu: "5-6 yaş"
+        yaşGrubu: "3-6 yaş"
       },
       {
         id: 9,
@@ -97,15 +97,15 @@ const Aktiviteler = () => {
         açıklama: "Çocukların fiziksel gelişimlerini destekleyen, temel motor becerileri geliştiren, eğlenceli spor etkinlikleri.",
         resim: "/beden.jpg",
         özellikler: ["Temel motor beceriler", "Dayanıklılık", "Koordinasyon", "Takım ruhu"],
-        yaşGrubu: "2-6 yaş"
+        yaşGrubu: "3-6 yaş"
       },
       {
         id: 10,
-        başlık: "Beceri Koordinasyonu",
+        başlık: "Beceri Koordinasyon",
         açıklama: "İnce ve kaba motor becerileri geliştiren, el-göz koordinasyonunu güçlendiren özel tasarlanmış aktiviteler.",
         resim: "/motorskills.jpg",
         özellikler: ["El-göz koordinasyonu", "Denge", "Hassas motor beceriler", "Vücut farkındalığı"],
-        yaşGrubu: "2-6 yaş"
+        yaşGrubu: "3-6 yaş"
       },
       {
         id: 11,
@@ -131,7 +131,7 @@ const Aktiviteler = () => {
         açıklama: "Çocukların atlarla bağ kurarak sorumluluk, güven ve denge becerilerini geliştirdiği binicilik dersleri.",
         resim: "/binincilik.jpg",
         özellikler: ["Denge ve duruş", "Hayvan sevgisi", "Sorumluluk bilinci", "Özgüven"],
-        yaşGrubu: "4-6 yaş"
+        yaşGrubu: "3-6 yaş"
       },
       {
         id: 14,

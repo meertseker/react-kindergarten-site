@@ -39,7 +39,7 @@ const ContactInfo = () => {
     {
       type: 'location',
       title: 'Adres',
-      value: 'Cumhuriyet, Uludağ Sk. No:6\n34000 Büyükçekmece/İstanbul',
+      value: 'Cumhuriyet mah, Uludağ Sk. No:6\nBeykent Büyükçekmece/İstanbul',
       bgColor: 'bg-red-100',
       iconColor: 'text-red-600',
       icon: (

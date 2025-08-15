@@ -33,17 +33,17 @@ const SSS = () => {
     {
       id: 3,
       question: "Çocukların beslenme durumu nasıl sağlanır?",
-      answer: "Anaokulumuza kayıtlı tüm çocuklara günlük 2 öğün (kahvaltı ve öğle yemeği) ile 1 ara öğün verilmektedir. Menülerimiz diyetisyen kontrolünde hazırlanır ve dengeli beslenme prensipleri gözetilir. Alerjik durumları olan çocuklar için özel menüler hazırlanır."
+      answer: "Anaokulumuza kayıtlı tüm çocuklara günlük 3 öğün (kahvaltı, öğle yemeği ve ikindi kahvaltısı) verilmektedir. Menüleri beslenme uzmanı kontrolünde hazırlanır ve dengeli beslenme prensipleri gözetilir."
     },
     {
       id: 4,
       question: "Çalışma saatleri nelerdir?",
-      answer: "Anaokulumuza 07:30-18:00 saatleri arasında hizmet vermekteyiz. Tam gün ve yarım gün seçeneklerimiz mevcuttur. Yarım gün eğitim 08:00-12:00 saatleri arasındadır."
+      answer: "Anaokulumuza 07:15-19:15 saatleri arasında hizmet vermekteyiz. Tam gün ve yarım gün seçeneklerimiz mevcuttur. Yarım gün eğitim 07:15-13:00 saatleri arasındadır."
     },
     {
       id: 5,
       question: "Öğretmen kadronuz nasıldır?",
-      answer: "Tüm öğretmenlerimiz okul öncesi eğitimi alanında lisans mezunu ve deneyimlidir. Ayrıca düzenli olarak hizmet içi eğitimler alarak kendilerini geliştirmektedirler. Her sınıfımızda en az 1 öğretmen ve 1 yardımcı öğretmen bulunmaktadır."
+      answer: "Tüm öğretmenlerimiz okul öncesi eğitimi alanında lisans mezunudur ve minimum 5 yıl deneyimlidir. Ayrıca düzenli olarak hizmet içi eğitimler alarak kendilerini geliştirmektedirler."
     },
     {
       id: 6,
@@ -67,16 +67,11 @@ const SSS = () => {
     },
     {
       id: 10,
-      question: "Hastalık durumunda ne yapılır?",
-      answer: "Hasta çocukların anaokula getirilmemesi önemlidir. Okul içinde hasta olan çocuklar için hemşire bulunur ve veliler hemen bilgilendirilir. Bulaşıcı hastalık durumlarında gerekli önlemler alınır."
-    },
-    {
-      id: 11,
       question: "Etkinlik ve gezi programları var mı?",
       answer: "Yıl içinde çocukların gelişimini destekleyici çeşitli etkinlikler, gösteriler ve eğitici geziler düzenlenir. Tüm etkinlikler veli onayı alınarak ve güvenlik önlemleri alınarak gerçekleştirilir."
     },
     {
-      id: 12,
+      id: 11,
       question: "Veli katılımı nasıl sağlanır?",
       answer: "Düzenli veli toplantıları, veli-öğretmen görüşmeleri ve çeşitli etkinliklerde veli katılımı sağlanır. Veliler çocuklarının eğitim sürecine aktif olarak dahil edilir ve öneriler alınır."
     }

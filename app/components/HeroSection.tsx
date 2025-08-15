@@ -3,10 +3,13 @@ import React from 'react'
 
 const HeroSection = () => {
   return (
-    <div 
-      className="relative overflow-hidden pt-16 pb-24 bg-cover bg-center bg-no-repeat"
-      style={{ backgroundImage: "url('/cocuklar3.png')" }}
-    >
+<div
+  className="relative overflow-hidden pt-16 pb-24 bg-cover bg-no-repeat"
+  style={{
+    backgroundImage: "url('/cocukklar.jpg')",
+    backgroundPosition: "center 30%" // 100% en alt, 90% biraz yukarısı
+  }}
+>
       {/* Dark Overlay for better text readability */}
       <div className="absolute inset-0" style={{ background: `linear-gradient(to bottom, rgba(7, 25, 151, 0.8), rgba(7, 25, 151, 0.6))` }}></div>
       

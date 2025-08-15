@@ -37,7 +37,7 @@ const FeaturesSection = () => {
         </svg>
       ),
       title: "Sağlıklı Beslenme",
-      description: "Uzman diyetisyen kontrolünde hazırlanan menülerle çocukların sağlıklı büyümesini destekliyoruz."
+      description: "Beslenme uzmanı kontrolünde hazırlanan menülerle çocukların sağlıklı büyümesini destekliyoruz."
     },
     {
       icon: (

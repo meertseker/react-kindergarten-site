@@ -15,10 +15,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title:
-    "Beykent Anaokulu | Beylikdüzü Anaokulu | Büyükçekmece Anaokulu | Şeker Anaokulu | Şeker Akademi",
-  description:
-    "Beykent'te bulunan Şeker Anaokulu ve Şeker Akademi, Beylikdüzü, Büyükçekmece ve çevre bölgelere hizmet veren özel bir anaokuludur. Çocuklarınıza güvenli, sevgi dolu ve eğitici bir ortam sunuyoruz.",
+  title: "Şeker Anaokulu",
+  description: "Çocuklarınıza sevgi dolu ve eğitici bir ortam sunuyoruz.",
   keywords: `
     beykent anaokulu, beylikdüzü anaokulu, büyükçekmece anaokulu, şeker anaokulu, şeker akademi,
     özel anaokulu, güvenli anaokulu, montessori anaokulu, oyun grubu, okul öncesi eğitim,
